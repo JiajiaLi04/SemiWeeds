@@ -11,7 +11,7 @@ More instructions coming soon...
 ```
 python train_net.py \
        --num-gpus 2 \
-       --config configs/FCOS/coco-customized/fcos_R_50_ut2_sup20_run0.yaml \
+       --config configs/FCOS/fcos_R_50_ut2_sup20_run0.yaml \
         SOLVER.IMG_PER_BATCH_LABEL 4 SOLVER.IMG_PER_BATCH_UNLABEL 4 SOLVER.IMS_PER_BATCH 4 \
         OUTPUT_DIR ./xx/ \
         TEST.EVAL_PERIOD 2000 \
@@ -23,7 +23,7 @@ python train_net.py \
 ```
 python train_net.py \
       --num-gpus 2 \
-      --config configs/FCOS/coco-customized/fcos_R_50_ut2_sup20_run0.yaml \
+      --config configs/FCOS/fcos_R_50_ut2_sup20_run0.yaml \
        SOLVER.IMG_PER_BATCH_LABEL 4 SOLVER.IMG_PER_BATCH_UNLABEL 4 SOLVER.IMS_PER_BATCH 4 \
        OUTPUT_DIR ./xx/ \
        TEST.EVAL_PERIOD 2000 \
@@ -34,7 +34,7 @@ python train_net.py \
 python train_net.py \
         --eval-only \
 	--num-gpus 2 \
-	--config configs/FCOS/coco-customized/fcos_R_50_ut2_sup20_run0.yaml \
+	--config configs/FCOS/fcos_R_50_ut2_sup20_run0.yaml \
 	SOLVER.IMG_PER_BATCH_LABEL 4 SOLVER.IMG_PER_BATCH_UNLABEL 4 SOLVER.IMS_PER_BATCH 4 \
 	MODEL.WEIGHTS ./model_final.pth \
 	OUTPUT_DIR ./xx/ \
