@@ -7,7 +7,7 @@ More instructions coming soon...
 - Follow the installation instructions of INSTALL.md
 
 ## Training commands
-### Train supervised baseline. For example, using 20% of labeled data
+#### Train supervised baseline. For example, using 20% of labeled data
 ```
 python train_net.py \
        --num-gpus 2 \
