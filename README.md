@@ -19,7 +19,7 @@ python train_net.py \
         SEMISUPNET.Trainer baseline
 ```
 
-### Train semi-supervised. For example, using 20% of labeled data + 80% unlabeled data
+#### Train semi-supervised. For example, using 20% of labeled data + 80% unlabeled data
 ```
 python train_net.py \
       --num-gpus 2 \
