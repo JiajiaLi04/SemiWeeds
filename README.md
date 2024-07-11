@@ -11,5 +11,12 @@ More instructions coming soon...
 Is this repository helpful? 😊  
 
 Please consider citing our paper. 👇👇👇
-XX
+```
+@article{li2024performance,
+  title={Performance Evaluation of Semi-supervised Learning Frameworks for Multi-Class Weed Detection},
+  author={Li, Jiajia and Chen, Dong and Yin, Xunyuan and Li, Zhaojian},
+  journal={arXiv preprint arXiv:2403.03390},
+  year={2024}
+}
+```
 
