@@ -47,5 +47,27 @@ python train_net.py \
 Is this repository helpful? 😊  
 
 Please consider citing our paper. 👇👇👇
+```
+@article{li2024performance,
+  title={Performance evaluation of semi-supervised learning frameworks for multi-class weed detection},
+  author={Li, Jiajia and Chen, Dong and Yin, Xunyuan and Li, Zhaojian},
+  journal={Frontiers in Plant Science},
+  volume={15},
+  pages={1396568},
+  year={2024},
+  publisher={Frontiers Media SA}
+}
+```
 
+```
+@article{li2023label,
+  title={Label-efficient learning in agriculture: A comprehensive review},
+  author={Li, Jiajia and Chen, Dong and Qi, Xinda and Li, Zhaojian and Huang, Yanbo and Morris, Daniel and Tan, Xiaobo},
+  journal={Computers and Electronics in Agriculture},
+  volume={215},
+  pages={108412},
+  year={2023},
+  publisher={Elsevier}
+}
+```
 
